@@ -1,0 +1,412 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    /* background-color:white; */
+    background-color:rgba(244, 241, 241, 0.991);
+}
+nav{
+    width: 100%;
+    height: 10rem;
+    background-color:rgba(244, 241, 241, 0.991);
+    display: grid;
+    place-items: center;
+}
+.navbar{
+    width: 90%;
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 10%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.mid-nav{
+    width: 40%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 1.8rem;
+}
+.mid-nav li{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.mid-nav li:hover{
+    cursor: pointer;
+    color: rgb(131, 202, 26);
+    font-weight: 600;
+}
+.mid-nav li i{
+    color: rgb(131, 202, 26);
+    font-size: 1.8rem;
+    margin-left: .2rem;
+    margin-right: .2rem;
+}
+.button-nav{
+    width: 9%;
+    height: auto;
+    /* border: 2px solid greenyellow; */
+    background-color: rgb(131, 202, 26);
+}
+.button-nav button{
+    width: 100%;
+    height: 4rem;
+    border: .3rem solid black;
+    font-size: 1.3rem;
+    border-radius: 3rem;
+}
+.button-nav button:hover{
+    cursor: pointer;
+    background-color: rgb(237, 231, 231);
+    font-weight: 600;
+}
+
+
+
+/* Section */
+section{
+    width: 100%;
+    height: 88vh;
+    background-color:rgba(244, 241, 241, 0.991);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page{
+    width: 90%;
+    height: auto;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+.left-page{
+    width:49%;
+    height: 60rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 3rem;
+}
+.text-part{
+    width: 80%;
+    height: 50rem;
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.text-part h5{
+    width: 30%;
+    height: 4rem;
+    display: grid;
+    place-items: center;
+    font-size: 1.0rem;
+    border: 0.1rem solid greenyellow;
+    border-radius: 0.9rem;
+    background-color: greenyellow;
+    font-weight: 900;
+}
+.text-part h5:hover{
+    background-color: rgba(149, 218, 11, 0.938);
+}
+.text-part h1{
+    font-size:6.5rem;
+    text-transform:capitalize;
+}
+.text-part h4{
+    font-size: 3rem;
+    color: rgba(110, 105, 105, 0.938);
+}
+.text-part span{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+span button{
+    /* width: 20%; */
+    height: 4.5rem;
+}
+.btn{
+    width: 45%;
+    height: 4.3rem;
+    background-color: greenyellow;
+}
+span button:first-child{
+    width: 100%;
+    border: .3rem solid black;
+    border-radius: 3rem;
+    /* display: none; */
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+span button:first-child:hover{
+    background-color: rgb(236, 230, 230);
+    font-weight: 600;
+}
+span button:nth-child(2){
+    width: 50%;
+    height: 4.3rem;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 1.8rem;
+}
+span button:nth-child(2):hover{
+    color: yellowgreen;
+}
+.text-part p{
+    margin-top: 5rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.text-part p i{
+    font-size: 1.8rem;
+    padding-right: 1rem;
+    color: greenyellow;
+}
+.right-page{
+    width:49%;
+    height: 60rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* overflow: hidden; */
+}
+.bg-part{
+    width: 60%;
+    height: 45rem;
+    border: .3rem solid greenyellow;
+    border-radius: 2rem;
+    background-color: greenyellow;
+    position: relative;
+}
+.box-1{
+    width: 60%;
+    height: 30rem;
+    background:url(./image/Redmi-K50-Gaming\ -2.jpg);
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    border-radius: 3rem;
+    position: relative;
+    top: 8rem;
+    right:6rem;
+    box-shadow: .2rem;
+}
+.box-1:hover{
+    cursor: pointer;
+}
+.box-2{
+    width: 60%;
+    height: 30rem;
+    background-color: white;
+    border-radius: 3rem;
+    position: relative;
+    bottom: 36rem;
+    left: 9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.box-2:hover{
+    cursor: pointer;
+}
+.contain{
+    width: 90%;
+    height: auto;
+    position: relative;
+}
+.set{
+    width: 100%;
+    height: auto;
+    display: grid;
+    place-items: end;
+}
+.contain .icon{
+    width: 2rem;
+    height: 2rem;
+    border: .2rem solid black;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contain .icon i{
+    color: white;
+    font-size: 1.3rem;
+}
+.box-2 img{
+    width: 100%;
+    height: 18rem;
+    display: grid;
+    place-items: center;
+}
+.contain h3{
+    font-size: 2rem;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+.contain p{
+    font-size: 1.6rem;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+.black-box{
+    width: 45%;
+    height: 4rem;
+    background-color: black;
+    border-radius: 3rem;
+}
+.menu-bar{
+    display: none;
+}
+.menu-bar i{
+    font-size: 3.5rem;
+}
+
+
+
+.line-img{
+    width: 25rem;
+    height: 25rem;
+    position: absolute;
+    bottom:3rem;
+    right: 16rem;
+    background: url(./image/image-removebg-preview\ \(28\).png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+
+/* responsive */
+
+@media (max-width:900px){
+    html{
+        font-size: 50%;
+    }
+}
+@media (max-width:768px) { 
+    html{
+        font-size:40%;
+    }
+    .navbar{
+        width: 90%;
+        height: 15rem;
+    }
+    .mid-nav{
+        display: none;
+    }
+    .logo{
+        width: 20%;
+    }
+    .button-nav{
+        display: none;
+    }
+    .menu-bar{
+        display: inline;
+    }
+    .button-nav{
+        width: 20%;
+        height: 4rem;
+    }
+    .button-nav button{
+        width:100%;
+        height: 4rem;
+    }
+    section{
+        width: 100%;
+        height: auto;
+    }
+    .page{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .left-page{
+        width: 100%;
+        height: 50rem;
+    }
+    .text-part{
+        width: 100%;
+        height:35rem;
+    }
+    .text-part h1 br{
+        display: none;
+    }
+    .text-part h1{
+        font-size: 7rem;
+    }
+    .text-part h5{
+        display: grid;
+        place-items: center;
+    }
+    .right-page{
+        width: 100%;
+        height: 60rem;
+    }
+    .bg-part{
+        width: 80%;
+    }
+    .text-part span{
+        width: 60%;
+    }
+    span .btn{
+        width: 30%;
+        height: 4rem;
+    }
+    span button:first-child{
+        width: 100%;
+        height: 4rem;
+    }
+    span .button:nth-child(2){
+        width: 30%;
+        height: 4rem;
+    }
+    .box-1{
+        width: 35%;
+    }
+    .box-2{
+        width: 35%;
+    }
+    .line-img{
+        display: none;
+    }
+
+}
+
+/* 340px  */
+
+@media (max-width:400px){
+    html{
+        font-size:20%;
+    }
+    span button:first-child{
+        border-radius: 5rem;
+    }
+}
+
